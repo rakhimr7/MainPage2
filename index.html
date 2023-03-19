@@ -7,7 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Paper JS -->
+<script src="https://cdnjs.clooudflare.com/ajax/libs.popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
  </head>
+
+
+
 
 <body>
 
@@ -15,8 +32,8 @@
     <!-- Navbar Section -->
     <nav class="navbar"> 
         <div class="navbar_container">
-            <a href="#home" id="navbar__logo">Laukik</a>
-            <div class="navbar__toggle" id="mobile">
+            <a href="#home" id="navbar__logo">StreetLine</a>
+            <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -33,13 +50,45 @@
                     <a href="#services" class="navbar__links" id="services-page">Services</a>
                 </li>
                 <li class="navbar__btn">
-                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                    <a href="#sign-up" class="button" id="signup">Login</a>
                 </li>
             </ul>
 
         </div>
     </nav>
+    
+   <!-- Hero Section -->
+   <div class="hero" id="home">
+    <div class = "hero__container">
+        <h1 class="hero__heading"> Stay in touch <span>Be Safe</span></h1>
+        <p class = "hero__description"> See All Accidents</p>
+        <button class = "main__btn" data-toggle="modal" data-target="#exampleModalCenter"><a href="#modal">Sign up</a>
 
+         
+  </button>
+
+    </div>
+</div> 
+
+
+
+<!--  About Section -->
+<div class="main" id="about">
+    <div class="main__container">
+       <div class = "main__img--container">
+        <div class="main__img--card">ICON</div>
+       </div>
+       <div class = "main__content">
+        <h1>What do we do?</h1>
+        <h2>Keep you informed of all incidents</h2>
+        <p>Contact us for support</p>
+        <button class="main__btn"><a href="#">Contact Us</a></button>
+       </div>
+    </div>
+</div> 
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
